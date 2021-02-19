@@ -1,0 +1,12 @@
+[package]
+name = "lazyfunctions"
+version = "0.1.0"
+authors = ["dakokonutboi <ghaliomar.g.ink@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "A collections of functions for lazy people, or highly efficient programmers."
+repository = "https://github.com/dakokonutboi/lazyfunctions"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
