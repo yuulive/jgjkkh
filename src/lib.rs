@@ -1,6 +1,6 @@
 use std::io::Write;
 
-/// Does a readline from stdin and returns a trimmed string
+/// Does a readline from stdin and returns a trimmed string in a Result
 /// # Arguments
 ///
 /// * `prompt` - A string slice that is displayed as a prompt to the user
@@ -8,7 +8,7 @@ use std::io::Write;
 /// # Examples
 ///
 /// ```
-/// let name = input("What's your name? : ");
+/// let name = input("What's your name? : ").expect("Error at input.");
 /// println!("Oh! So your name is {}!", name);
 /// ```
 pub fn input(prompt: &str) -> Result<String, std::io::Error> {
