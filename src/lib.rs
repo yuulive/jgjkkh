@@ -20,11 +20,3 @@ pub fn input(prompt: &str) -> Result<String, std::io::Error> {
         Err(err) => Err(err),
     }
 }
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
