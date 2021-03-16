@@ -8,7 +8,7 @@ use std::io::Write;
 /// # Examples
 ///
 /// ```
-/// let name = input("What's your name? : ").expect("Error at input.");
+/// let name = oh::input("What's your name? : ").expect("Error at input.");
 /// println!("Oh! So your name is {}!", name);
 /// ```
 pub fn input(prompt: &str) -> Result<String, std::io::Error> {

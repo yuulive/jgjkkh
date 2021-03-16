@@ -1,10 +1,10 @@
-# Contributing to lazyfunctions
+# Contributing to oh
 
 ## Issues
 Issues should be used to report problems with the library, request a new feature, or to discuss potential changes before a PR is created.
 When creating a new issue. Please give as much information about your current environment as possible, including :
 - Rust version
-- lazyfunctions library version
+- oh library version
 - piece of code that poses problem
 
 Please do not create "duplicate" issues, as in do not create multiple issues addressing the same problem and do not create a new issue addressing the same problem as an already open issue (especially if it has been created by someone else.)
